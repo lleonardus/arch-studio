@@ -1,3 +1,12 @@
+import { Hero } from "./components/hero/Hero";
+
 export function Homepage() {
-  return <div>Homepage</div>;
+  return (
+    <main>
+      <section>
+        <Hero />
+      </section>
+      <section></section>
+    </main>
+  );
 }

@@ -1,4 +1,5 @@
 import { Hero } from "./components/hero/Hero";
+import { WelcomeSection } from "./components/WelcomeSection";
 
 export function Homepage() {
   return (
@@ -6,7 +7,7 @@ export function Homepage() {
       <section>
         <Hero />
       </section>
-      <section></section>
+      <WelcomeSection />
     </main>
   );
 }

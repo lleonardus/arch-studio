@@ -9,7 +9,7 @@ export function Hero() {
   const maxIndex = 4;
 
   return (
-    <div className="relative tablet:pr-[98px]">
+    <section className="relative tablet:pr-[98px]">
       <Carousel
         maxIndex={maxIndex}
         currentIndex={currentIndex}
@@ -94,6 +94,6 @@ export function Hero() {
         currentIndex={currentIndex}
         setCurrentIndex={setCurrentIndex}
       />
-    </div>
+    </section>
   );
 }

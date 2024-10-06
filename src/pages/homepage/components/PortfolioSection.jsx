@@ -7,7 +7,7 @@ export function PortfolioSection() {
         <h2 className="text-[48px] font-bold leading-[52px] tracking-[-1.71px] text-gray-900 tablet:max-w-[400px] tablet:text-xl">
           Featured
         </h2>
-        <ul className="mb-6 mt-[43px] flex flex-col gap-6 tablet:col-span-2 tablet:mt-[85px] desktop:mt-16 desktop:flex-row *:desktop:w-full">
+        <ul className="mb-6 mt-[43px] flex flex-col gap-6 tablet:col-span-2 tablet:mb-0 tablet:mt-[85px] desktop:mt-16 desktop:flex-row *:desktop:w-full">
           <li className="relative z-[1] bg-[url('/assets/portfolio/mobile/image-del-sol.jpg')] bg-cover bg-no-repeat pb-[23px] pl-6 pt-[153px] after:absolute after:inset-0 after:bg-black/60 tablet:bg-[url('/assets/portfolio/tablet/image-del-sol.jpg')] tablet:pb-[39px] tablet:pl-10 tablet:pt-[137px] desktop:bg-[url('/assets/portfolio/desktop/image-del-sol.jpg')] desktop:pb-[39px] desktop:pl-10 desktop:pt-[457px]">
             <span className="absolute right-4 top-[29px] z-[2] hidden text-3xl text-white/50 tablet:inline-block desktop:-right-3 desktop:top-[45px]">
               1

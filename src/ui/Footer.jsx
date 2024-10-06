@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 export function Footer() {
   return (
-    <footer className="mt-[132px] bg-gray-100 px-8 tablet:pl-0 tablet:pr-0 desktop:mr-[98px]">
-      <div className="flex translate-y-[-60px] flex-col items-center gap-8 tablet:translate-y-0 tablet:flex-row">
+    <footer className="mt-[132px] bg-gray-100 px-8 tablet:pl-0 tablet:pr-0 desktop:mx-[98px]">
+      <div className="relative flex translate-y-[-60px] flex-col items-center gap-8 tablet:translate-y-0 tablet:flex-row tablet:gap-10 tablet:before:absolute tablet:before:right-0 tablet:before:top-0 tablet:before:h-full tablet:before:w-[156px] tablet:before:bg-white desktop:w-full desktop:gap-[85px] desktop:before:w-[126px]">
         <Link
           to="/"
-          className="grid h-[120px] w-[120px] place-items-center bg-gray-900"
+          className="grid h-[120px] w-[120px] place-items-center bg-gray-900 desktop:h-[200px] desktop:w-[200px]"
         >
           <div to="/" className="h-10 w-[97px] tablet:h-10 tablet:w-24">
             <svg viewBox="0 0 97 40" xmlns="http://www.w3.org/2000/svg">
@@ -18,7 +18,7 @@ export function Footer() {
           </div>
         </Link>
         <nav>
-          <ul className="flex flex-col items-center gap-8 text-base font-bold text-gray-600 tablet:flex-row">
+          <ul className="flex flex-col items-center gap-8 text-base font-bold text-gray-600 tablet:w-[313px] tablet:flex-row tablet:justify-between tablet:gap-0">
             <li>
               <Link
                 to="/portfolio"
@@ -47,7 +47,7 @@ export function Footer() {
         </nav>
         <Link
           to="/portfolio"
-          className="relative flex w-fit items-center gap-[24px] bg-gray-900 pb-[22px] pl-[37px] pr-[32px] pt-[25px] text-base font-bold capitalize text-white transition-colors hover:bg-gray-700"
+          className="z-[2] flex w-fit items-center gap-[24px] bg-gray-900 pb-[22px] pl-[37px] pr-[32px] pt-[25px] text-base font-bold capitalize text-white transition-colors hover:bg-gray-700 desktop:float-right desktop:ml-auto"
         >
           <span>See Our Portfolio</span>
           <span>

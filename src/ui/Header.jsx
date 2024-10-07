@@ -16,7 +16,7 @@ export function Header() {
       <div className="absolute left-[-96px] top-[280px] hidden w-[240px] rotate-90 text-base uppercase tracking-[1.125rem] text-gray-300 before:absolute before:left-[-204px] before:top-1/2 before:h-[1px] before:w-[204px] before:-translate-y-1/2 before:translate-x-[-48px] before:bg-gray-300 tablet:inline-block">
         {pathName || "Home"}
       </div>
-      <header className="relative flex h-fit items-center justify-between px-8 py-8 text-gray-900 tablet:justify-normal tablet:gap-[79px] tablet:px-0 xl:gap-[95px]">
+      <header className="relative flex h-fit items-center justify-between px-8 pt-8 text-gray-900 tablet:justify-normal tablet:gap-[79px] tablet:px-0 xl:gap-[95px]">
         <Link
           to="/"
           className="inline-block h-8 w-[77px] tablet:h-10 tablet:w-24"

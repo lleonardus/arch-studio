@@ -18,17 +18,36 @@ export default {
       spartan: ['"League Spartan"', "sans-serif"],
     },
     fontSize: {
-      base: ["1.125rem", { fontWeight: "500", lineHeight: "1.5rem", letterSpacing: "0px" }],
-      lg: ["2rem", { fontWeight: "700", lineHeight: "2.5rem", letterSpacing: "0px" }],
-      xl: ["4.5rem", { fontWeight: "700", lineHeight: "4rem", letterSpacing: "-0.125rem" }],
-      "2xl": ["6rem", { fontWeight: "700", lineHeight: "5rem", letterSpacing: "-0.125rem" }],
-      "3xl": ["15.625rem", { fontWeight: "700", lineHeight: "12.5rem", letterSpacing: "-0.3125rem" }],
+      base: [
+        "1.125rem",
+        { fontWeight: "500", lineHeight: "1.5rem", letterSpacing: "0px" },
+      ],
+      lg: [
+        "2rem",
+        { fontWeight: "700", lineHeight: "2.5rem", letterSpacing: "0px" },
+      ],
+      xl: [
+        "4.5rem",
+        { fontWeight: "700", lineHeight: "4rem", letterSpacing: "-0.125rem" },
+      ],
+      "2xl": [
+        "6rem",
+        { fontWeight: "700", lineHeight: "5rem", letterSpacing: "-0.125rem" },
+      ],
+      "3xl": [
+        "15.625rem",
+        {
+          fontWeight: "700",
+          lineHeight: "12.5rem",
+          letterSpacing: "-0.3125rem",
+        },
+      ],
     },
     extend: {
       screens: {
         tablet: "768px",
-        desktop: "1440px",
-      }
+        desktop: "1280px",
+      },
     },
   },
   plugins: [],

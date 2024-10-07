@@ -5,7 +5,7 @@ import { PortfolioSection } from "./components/PortfolioSection";
 
 export function Homepage() {
   return (
-    <main>
+    <main className="mt-8 tablet:mt-14">
       <Hero />
       <WelcomeSection />
       <AboutUsSection />

@@ -25,7 +25,7 @@ export function Hero() {
         <h2 className="max-w-[311px] pb-[21px] text-[48px] font-bold leading-[52px] tracking-[-1.71px] text-gray-900 tablet:max-w-[446px] tablet:pb-[38px] tablet:text-xl tablet:before:absolute tablet:before:left-[59px] tablet:before:top-0 tablet:before:h-[1px] tablet:before:w-[65px] tablet:before:bg-gray-300 desktop:pb-[49px] desktop:before:left-[182px]">
           Your team of professionals
         </h2>
-        <p className="text-gray-700">
+        <p className="text-gray-700 text-base">
           Our small team of world-class professionals will work with you every
           step of the way. Strong relationships are at the core of everything we
           do. This extends to the relationship our projects have with their

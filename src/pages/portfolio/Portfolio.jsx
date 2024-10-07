@@ -24,7 +24,7 @@ export function Portfolio() {
 
           <PortfolioListItem
             title="Project Del Sol"
-            date="September 2019"
+            date="January 2016"
             backgroundImage="bg-[url('/assets/portfolio/mobile/image-del-sol.jpg')] tablet:bg-[url('/assets/portfolio/tablet/image-del-sol.jpg')] desktop:bg-[url('/assets/portfolio/desktop/image-del-sol.jpg')]"
           />
           <PortfolioListItem

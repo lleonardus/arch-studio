@@ -36,6 +36,7 @@ export function Header() {
             <li>
               <Link
                 to="/portfolio"
+                onClick={() => setIsOpen(false)}
                 className={`w-fit shrink-0 transition-colors hover:text-gray-900 ${pathName === "Portfolio" ? "relative text-gray-900 tablet:after:absolute tablet:after:bottom-[-6px] tablet:after:left-1/2 tablet:after:h-[1px] tablet:after:w-6 tablet:after:-translate-x-1/2 tablet:after:bg-gray-900 tablet:after:transition-[width]" : "tablet:after:w-0"}`}
               >
                 Portfolio
@@ -44,6 +45,7 @@ export function Header() {
             <li>
               <Link
                 to="/about-us"
+                onClick={() => setIsOpen(false)}
                 className={`w-fit shrink-0 transition-colors hover:text-gray-900 ${pathName === "About Us" ? "relative text-gray-900 tablet:after:absolute tablet:after:bottom-[-6px] tablet:after:left-1/2 tablet:after:h-[1px] tablet:after:w-6 tablet:after:-translate-x-1/2 tablet:after:bg-gray-900 tablet:after:transition-[width]" : "tablet:after:w-0"}`}
               >
                 About Us
@@ -52,6 +54,7 @@ export function Header() {
             <li>
               <Link
                 to="/contact"
+                onClick={() => setIsOpen(false)}
                 className={`w-fit shrink-0 transition-colors hover:text-gray-900 ${pathName === "Contact" ? "relative text-gray-900 tablet:after:absolute tablet:after:bottom-[-6px] tablet:after:left-1/2 tablet:after:h-[1px] tablet:after:w-6 tablet:after:-translate-x-1/2 tablet:after:bg-gray-900 tablet:after:transition-[width]" : "tablet:after:w-0"}`}
               >
                 Contact

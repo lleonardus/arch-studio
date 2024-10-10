@@ -28,10 +28,10 @@ export function Header() {
           className="h-[17px] w-6 bg-[url('/assets/icons/icon-hamburger.svg')] bg-cover bg-no-repeat tablet:hidden"
         ></button>
         <nav
-          className={`absolute inset-0 z-[99999] h-dvh translate-y-[96px] tablet:static tablet:h-auto tablet:translate-x-0 tablet:translate-y-0 ${isOpen ? "translate-x-0 max-tablet:bg-black/75" : "translate-x-full transition-transform delay-300"}`}
+          className={`${isOpen ? "max-tablet:z-[99999] max-tablet:bg-black/75" : "max-tablet:z-[-1]"} absolute inset-0 grid h-dvh translate-y-[96px] overflow-hidden transition-all duration-[400ms] ease-in-out tablet:static tablet:inline-block tablet:h-auto tablet:translate-x-0 tablet:translate-y-0`}
         >
           <ul
-            className={`absolute right-0 top-0 flex h-[235px] w-[343px] flex-col gap-[17px] bg-gray-100 px-12 pb-[42px] pt-[39px] text-lg transition-transform duration-300 tablet:static tablet:h-auto tablet:w-auto tablet:translate-x-0 tablet:flex-row tablet:gap-[61px] tablet:bg-[inherit] tablet:text-base tablet:font-bold tablet:text-gray-600 ${isOpen ? "translate-x-0" : "translate-x-full"}`}
+            className={`${!isOpen ? "max-tablet:translate-x-full" : ""} ml-auto flex h-[235px] w-[343px] flex-col gap-[17px] overflow-hidden bg-gray-100 px-12 pb-[42px] pt-[39px] text-lg transition-transform duration-150 tablet:static tablet:ml-0 tablet:h-auto tablet:w-auto tablet:translate-x-0 tablet:flex-row tablet:gap-[61px] tablet:bg-[inherit] tablet:text-base tablet:font-bold tablet:text-gray-600`}
           >
             <li>
               <Link

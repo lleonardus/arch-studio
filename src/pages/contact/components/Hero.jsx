@@ -12,7 +12,7 @@ export function Hero() {
             srcSet="/assets/contact/tablet/image-hero.jpg"
           />
           <img
-            className="w-full tablet:w-auto"
+            className="min-h-[240px] w-full bg-black tablet:h-[720px] desktop:h-[720px] desktop:w-[635px]"
             src="/assets/contact/mobile/image-hero.jpg"
             alt="Man using laptop"
           />

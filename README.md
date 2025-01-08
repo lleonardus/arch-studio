@@ -7,14 +7,7 @@ refletindo a dedicação da empresa à qualidade e atenção aos detalhes.
 A [ideia do design](https://www.frontendmentor.io/challenges/arch-studio-multipage-website-wNIbOFYR6)
 veio de um desafio do frontend mentor.
 
-### 🧰 Ferramentas Utilizadas
-
-- [Vite](https://vitejs.dev/)
-- [React](https://react.dev/)
-- [React Leaflet](https://react-leaflet.js.org/)
-- [Leaflet](https://leafletjs.com/)
-- [Tailwind](https://tailwindcss.com/)
-- [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+![Preview](docs/images/preview.jpg)
 
 ## 💿 Como rodar na sua máquina
 
@@ -38,3 +31,12 @@ $ npm run dev
 ```
 
 Após esse processo, o App vai estar rodando em **http://localhost:5173**
+
+### 🧰 Ferramentas Utilizadas
+
+- [Vite](https://vitejs.dev/)
+- [React](https://react.dev/)
+- [React Leaflet](https://react-leaflet.js.org/)
+- [Leaflet](https://leafletjs.com/)
+- [Tailwind](https://tailwindcss.com/)
+- [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
